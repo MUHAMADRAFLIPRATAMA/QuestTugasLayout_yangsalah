@@ -73,3 +73,14 @@ fun LayoutScreen() {
                     modifier = Modifier.fillMaxWidth(),
                     verticalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.card_spacing))
                 ) {
+                    PersonCard(
+                        name = stringResource(R.string.name_amba),
+                        address = stringResource(R.string.address_amba),
+                        photo = R.drawable.amba,
+                        containerColor = colorResource(R.color.card_gray),
+                        nameColor = colorResource(R.color.text_white),
+                        addressColor = colorResource(R.color.text_yellow),
+                        nameFontFamily = scriptFont,
+                        nameFontSizeRes = R.dimen.text_card_name_script,
+                        nameFontWeight = FontWeight.Normal
+                    )
