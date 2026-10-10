@@ -114,3 +114,23 @@ fun LayoutScreen() {
                         phoneColor = colorResource(R.color.text_cyan),
                         addressColor = colorResource(R.color.text_white)
                     )
+                    PersonCard(
+                        name = stringResource(R.string.name_rafli),
+                        phone = stringResource(R.string.nim
+                        ),
+                        address = stringResource(R.string.address_saya),
+                        photo = R.drawable.saya,
+                        containerColor = colorResource(R.color.card_orange),
+                        nameColor = colorResource(R.color.text_white),
+                        phoneColor = colorResource(R.color.text_cyan),
+                        addressColor = colorResource(R.color.text_white)
+                    )
+                }
+            }
+
+            FooterSection()
+        }
+    }
+}
+
+}
