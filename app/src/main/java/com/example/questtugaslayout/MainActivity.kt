@@ -133,4 +133,10 @@ fun LayoutScreen() {
     }
 }
 
-}
+@Composable
+private fun HeaderSection() {
+    Column(
+        modifier = Modifier.padding(
+            top = dimensionResource(R.dimen.header_top_padding),
+            bottom = dimensionResource(R.dimen.header_bottom_padding)
+        ),
