@@ -11,3 +11,19 @@
     <string name="name_amba">Mas Amba</string>
     <string name="address_amba">Ngawi Pusat</string>
 
+    <string name="name_rusdi">Mas Rusdi</string>
+    <string name="address_rusdi">Ngawi Timur</string>
+
+    <string name="name_fuad">Mas Fuad</string>
+    <string name="address_fuad">Ngawi Selatan</string>
+
+    <string name="name_lilnusnus">Pak lilnusnus</string>
+    <string name="address_lilnusnus">Ngawi Barat</string>
+
+    <string name="name_rafli">Muhamad Rafli Pratama</string>
+    <string name="address_saya">Jakarta 48</string>
+
+
+    <string name="phone_number">085436874190</string>
+    <string name="nim">20240140003</string>
+</resources>
