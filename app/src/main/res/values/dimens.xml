@@ -6,3 +6,11 @@
     <dimen name="photo_size">76dp</dimen>
 
 
+    <dimen name="card_spacing">14dp</dimen>
+    <dimen name="card_corner">14dp</dimen>
+    <dimen name="card_padding_vertical">20dp</dimen>
+    <dimen name="card_padding_horizontal">16dp</dimen>
+    <dimen name="card_text_padding">16dp</dimen>
+    <dimen name="logo_size">76dp</dimen>
+    <dimen name="text_spacing">4dp</dimen>
+
