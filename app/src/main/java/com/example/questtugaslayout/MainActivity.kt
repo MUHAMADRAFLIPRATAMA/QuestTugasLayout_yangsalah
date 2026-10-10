@@ -94,3 +94,13 @@ fun LayoutScreen() {
                         phoneColor = colorResource(R.color.text_cyan),
                         addressColor = colorResource(R.color.text_yellow)
                     )
+                    PersonCard(
+                        name = stringResource(R.string.name_fuad),
+                        phone = stringResource(R.string.phone_number),
+                        address = stringResource(R.string.address_fuad),
+                        photo = R.drawable.fuad,
+                        containerColor = colorResource(R.color.card_blue),
+                        nameColor = colorResource(R.color.text_white),
+                        phoneColor = colorResource(R.color.text_cyan),
+                        addressColor = colorResource(R.color.text_white)
+                    )
