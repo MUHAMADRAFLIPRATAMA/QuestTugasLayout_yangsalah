@@ -67,3 +67,11 @@ fun PersonCard(
                     fontWeight = nameFontWeight,
                     fontFamily = nameFontFamily
                 )
+                if (phone != null) {
+                    Text(
+                        text = phone,
+                        color = phoneColor,
+                        fontSize = dimensionResource(R.dimen.text_card_detail).value.sp
+                    )
+                }
+                
