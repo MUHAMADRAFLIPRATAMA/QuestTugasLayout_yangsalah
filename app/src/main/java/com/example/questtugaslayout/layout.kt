@@ -40,3 +40,8 @@ fun PersonCard(
     @DimenRes nameFontSizeRes: Int = R.dimen.text_card_name,
     nameFontWeight: FontWeight = FontWeight.Bold
 ) {
+    Card(
+        modifier = modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(dimensionResource(R.dimen.card_corner)),
+        colors = CardDefaults.cardColors(containerColor = containerColor)
+    ) {
