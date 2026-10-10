@@ -157,3 +157,12 @@ private fun HeaderSection() {
     }
 }
 
+@Composable
+private fun FooterSection() {
+    Text(
+        text = stringResource(R.string.footer_copyright),
+        color = colorResource(R.color.text_white),
+        fontSize = dimensionResource(R.dimen.text_footer).value.sp,
+        modifier = Modifier.padding(vertical = dimensionResource(R.dimen.footer_vertical_padding))
+    )
+}
