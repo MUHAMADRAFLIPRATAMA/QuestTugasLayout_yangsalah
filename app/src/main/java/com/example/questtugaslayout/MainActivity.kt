@@ -140,3 +140,12 @@ private fun HeaderSection() {
             top = dimensionResource(R.dimen.header_top_padding),
             bottom = dimensionResource(R.dimen.header_bottom_padding)
         ),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(
+            text = stringResource(R.string.header_title),
+            color = colorResource(R.color.text_white),
+            fontSize = dimensionResource(R.dimen.text_title).value.sp,
+            fontWeight = FontWeight.Bold
+        )
+        
