@@ -36,3 +36,15 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+@Composable
+fun LayoutScreen() {
+    val scriptFont = FontFamily.Cursive
+
+    Box(modifier = Modifier.fillMaxSize()) {
+        Image(
+            painter = painterResource(R.drawable.prabwowo),
+            contentDescription = stringResource(R.string.background_description),
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
+
