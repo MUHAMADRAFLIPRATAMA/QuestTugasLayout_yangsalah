@@ -81,3 +81,8 @@ fun PersonCard(
                 )
             }
 
+            CardPhoto(photo = photo, name = name)
+        }
+    }
+}
+
