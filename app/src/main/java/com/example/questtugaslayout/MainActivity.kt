@@ -48,3 +48,10 @@ fun LayoutScreen() {
             modifier = Modifier.fillMaxSize()
         )
 
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(colorResource(R.color.background_scrim))
+        )
+
+        
