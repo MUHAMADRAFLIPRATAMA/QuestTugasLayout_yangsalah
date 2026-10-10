@@ -86,3 +86,12 @@ fun PersonCard(
     }
 }
 
+@Composable
+private fun CardPhoto(@DrawableRes photo: Int, name: String) {
+    Image(
+        painter = painterResource(photo),
+        contentDescription = stringResource(R.string.photo_description, name),
+        contentScale = ContentScale.Crop,
+        modifier = Modifier.size(dimensionResource(R.dimen.photo_size))
+    )
+}
