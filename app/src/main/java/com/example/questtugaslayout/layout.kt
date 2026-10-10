@@ -60,3 +60,10 @@ fun PersonCard(
                     .padding(horizontal = dimensionResource(R.dimen.card_text_padding)),
                 verticalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.text_spacing))
             ) {
+                Text(
+                    text = name,
+                    color = nameColor,
+                    fontSize = dimensionResource(nameFontSizeRes).value.sp,
+                    fontWeight = nameFontWeight,
+                    fontFamily = nameFontFamily
+                )
