@@ -54,4 +54,11 @@ fun LayoutScreen() {
                 .background(colorResource(R.color.background_scrim))
         )
 
-        
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .safeDrawingPadding()
+                .padding(horizontal = dimensionResource(R.dimen.screen_padding)),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+           
