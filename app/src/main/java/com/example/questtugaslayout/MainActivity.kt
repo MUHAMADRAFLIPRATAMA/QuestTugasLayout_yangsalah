@@ -61,4 +61,11 @@ fun LayoutScreen() {
                 .padding(horizontal = dimensionResource(R.dimen.screen_padding)),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-           
+            HeaderSection()
+
+            Box(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxWidth(),
+                contentAlignment = Alignment.Center
+            ) {
