@@ -148,4 +148,12 @@ private fun HeaderSection() {
             fontSize = dimensionResource(R.dimen.text_title).value.sp,
             fontWeight = FontWeight.Bold
         )
-        
+        Text(
+            text = stringResource(R.string.header_subtitle),
+            color = colorResource(R.color.text_white),
+            fontSize = dimensionResource(R.dimen.text_subtitle).value.sp,
+            fontWeight = FontWeight.Bold
+        )
+    }
+}
+
