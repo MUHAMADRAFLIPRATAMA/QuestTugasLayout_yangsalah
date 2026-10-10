@@ -74,4 +74,10 @@ fun PersonCard(
                         fontSize = dimensionResource(R.dimen.text_card_detail).value.sp
                     )
                 }
-                
+                Text(
+                    text = address,
+                    color = addressColor,
+                    fontSize = dimensionResource(R.dimen.text_card_detail).value.sp
+                )
+            }
+
