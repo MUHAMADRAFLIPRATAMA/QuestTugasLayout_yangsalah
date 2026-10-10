@@ -69,3 +69,7 @@ fun LayoutScreen() {
                     .fillMaxWidth(),
                 contentAlignment = Alignment.Center
             ) {
+                Column(
+                    modifier = Modifier.fillMaxWidth(),
+                    verticalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.card_spacing))
+                ) {
