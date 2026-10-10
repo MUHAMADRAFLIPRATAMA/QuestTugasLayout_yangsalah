@@ -45,3 +45,10 @@ fun PersonCard(
         shape = RoundedCornerShape(dimensionResource(R.dimen.card_corner)),
         colors = CardDefaults.cardColors(containerColor = containerColor)
     ) {
+        Row(
+            modifier = Modifier.padding(
+                horizontal = dimensionResource(R.dimen.card_padding_horizontal),
+                vertical = dimensionResource(R.dimen.card_padding_vertical)
+            ),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
