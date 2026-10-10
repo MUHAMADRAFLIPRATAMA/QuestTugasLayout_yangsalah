@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuestTugasLayout</string>
+    <string name="photo_description">Foto %1$s</string>
+    <string name="background_description">Latar belakang</string>
+
