@@ -84,3 +84,13 @@ fun LayoutScreen() {
                         nameFontSizeRes = R.dimen.text_card_name_script,
                         nameFontWeight = FontWeight.Normal
                     )
+                    PersonCard(
+                        name = stringResource(R.string.name_rusdi),
+                        phone = stringResource(R.string.phone_number),
+                        address = stringResource(R.string.address_rusdi),
+                        photo = R.drawable.a,
+                        containerColor = colorResource(R.color.card_purple),
+                        nameColor = colorResource(R.color.text_white),
+                        phoneColor = colorResource(R.color.text_cyan),
+                        addressColor = colorResource(R.color.text_yellow)
+                    )
